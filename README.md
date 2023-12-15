@@ -23,7 +23,7 @@ O objetivo deste projeto é criar um blog que obtenha e exiba postagens da API J
 1. Clone este repositório em sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone git@github.com:artifonn/blog-jsonplaceholder.git
 
 2. Abra o arquivo index.html em seu navegador web.
 
