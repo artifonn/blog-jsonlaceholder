@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  font-size: 45px;
+  width: 100vw;
+  color: #2f4f4f;
+  background: #faebd7;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  align-items: center;
+  padding: 40px;
+  background: #2f4f4f;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container h2 {
+  text-transform: capitalize;
+  width: 70%;
+  text-align: start;
+  color: #faebd7;
+}
+
+.container p {
+  text-align: justify;
+  width: 70%;
+  margin: 10px;
+  text-transform: capitalize;
+  text-align: start;
+  color: #faebd7;
+}
+
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 30px;
+    padding: 10%;
+    height: auto;
+  }
+  
+  .posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+  }
+  
+  .container h2 {
+    width: 90%;
+  }
+  .container p {
+    width: 90%;
+  }
+  
+
+}
